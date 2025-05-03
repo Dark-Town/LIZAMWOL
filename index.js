@@ -127,7 +127,7 @@ async function startXeonBotInc() {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '120363161513685998@newsletter',
-                                newsletterName: 'KnightBot MD',
+                                newsletterName: 'LIZAMWOL',
                                 serverMessageId: -1
                             }
                         }
@@ -208,21 +208,21 @@ async function startXeonBotInc() {
             // Send message to bot's own number
             const botNumber = XeonBotInc.user.id.split(':')[0] + '@s.whatsapp.net';
             await XeonBotInc.sendMessage(botNumber, { 
-                text: `🤖 Bot Connected Successfully!\n\n⏰ Time: ${new Date().toLocaleString()}\n✅ Status: Online and Ready!
+                text: `│➣│▸👋 *BOT CONNECTED*!\n\n│➣│▸ *Time*: ${new Date().toLocaleString()}\n│➣│▸ VERSION 1 WITH UNLIMITED CMD!
                 \n Give a Star ⭐ to our bot:\n https://github.com/mudiyanmas/LIZAMWOL\n ✅Make sure to join below channel`,
                 contextInfo: {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363161513685998@newsletter',
-                        newsletterName: 'KnightBot MD',
+                        newsletterName: 'LIZAMWOL',
                         serverMessageId: -1
                     }
                 }
             });
 
             await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || '❄️ʟɪᴢᴀ ᴍᴡᴏʟ ᴍᴅ❄️'} ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ ${global.botname || 'LIZAMWOL'} ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
             console.log(chalk.magenta(`\n${global.themeemoji || '•'} YT CHANNEL:Mudiyanmass`))
             console.log(chalk.magenta(`${global.themeemoji || '•'} GITHUB: mudiyanmas`))
