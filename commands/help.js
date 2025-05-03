@@ -143,7 +143,7 @@ async function helpCommand(sock, chatId, channelLink) {
 ║ ➤ .song <song_name>
 ╚═══════════════════╝
 
-Join our channel for updates:`;
+THIS BOT IS UNDER MAINTENANCE © PAID TECH ZONE:`;
 
     try {
         const imagePath = path.join(__dirname, '../assets/bot_image.jpg');
@@ -158,7 +158,7 @@ Join our channel for updates:`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
+                        newsletterJid: '120363401516239182@g.us',
                         newsletterName: 'LIZAMWOL',
                         serverMessageId: -1
                     }
@@ -172,7 +172,7 @@ Join our channel for updates:`;
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363161513685998@newsletter',
+                        newsletterJid: '120363401516239182@g.us',
                         newsletterName: 'LIZAMWOL',
                         serverMessageId: -1
                     } 
